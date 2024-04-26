@@ -52,7 +52,7 @@ function crearCarrito() {
         //console.log(articulos)
         articulos.innerHTML = `
             <div class="carrito-card">
-                <img src="/images/${producto.img}" alt="" class="carrito-imagen">
+                <img src="./images/${producto.img}" alt="" class="carrito-imagen">
                 <div class="carrito-detalle">
                     <p class="titulo-producto">${producto.titulo}</p>
                     <p class="precio-producto">$${producto.precio}</p>
